@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.add{
+    color: yellow;
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    
+}
+
+table{
+ 
+    border: solid black 1px;
+    border-collapse: collapse;
+    width: 50%;
+    margin-left: 300px;
+    margin-top: 200px;
+    
+}
+
+th, td{
+    border: solid black 1px;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+tr:nth-child(even){
+    background-color: gray;
+}
+
+
+
